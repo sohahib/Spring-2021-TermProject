@@ -1,0 +1,48 @@
+img{
+	width: auto;
+	height: 50vh;
+	background:#89CFF0;
+}
+.Image-box{
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: space-around ;
+}
+.shoe{
+	transition: all 0.3s linear;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-top: 40px;
+	border-radius: 15px;
+	border-bottom: 4px solid #5072A7;
+}
+.shoe:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+.shoe-bottom{
+	margin-top: -22px;
+	margin-bottom: 10px;
+	text-align: center;
+	/*background: gray;*/
+}
+div h3, h5{
+	padding: 0px;
+	margin:0px;
+}
+button{
+	cursor: pointer;
+	background: #0076CE;
+	border-color: #0076CE;
+	color: #fff;
+	box-sizing: border-box;
+	height: 10px
+	outline: none;
+	border-radius: 5px;
+	padding: 0 10px;
+}
+button:hover{
+
+}
